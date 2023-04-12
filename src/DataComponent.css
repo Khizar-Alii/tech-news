@@ -1,0 +1,80 @@
+.dataComponent {
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+  margin-top: 30px;
+}
+
+.displayData {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  height: 150px;
+  /* width: 60%; */
+  margin: 5px auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.details {
+  margin-bottom: 10px;
+}
+.author {
+  font-style: italic;
+}
+
+a {
+  justify-self: start;
+  text-decoration: none;
+  color: #727272;
+}
+a:hover {
+  color: cyan;
+}
+.removeButton {
+  justify-self: end;
+  border: none;
+  background-color: #fff;
+  color: #727272;
+  cursor: pointer;
+}
+.removeButton:hover {
+  background-color: #f2f2f2;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+  background-color: #ccc;
+  color: #fff;
+}
